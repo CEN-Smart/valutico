@@ -19,7 +19,7 @@ body{
 /* Todo: Navbar Styling */
 header{
   background-color: #fff2f2;
-  padding: 2rem 4rem;
+  padding: 2rem;
   box-shadow: 1px 1px 10px rgba(0,0,0,.1);
   border-bottom: 1px solid rgba(0,0,0,.1);
   display: flex;
@@ -162,6 +162,10 @@ header{
   .nav-list{
     display: none;
   }
+  .img-container, .img-grid{
+  width: 90%;
+}
+
   
 }
 @media (max-width: 26em){
@@ -170,6 +174,9 @@ header{
   }
   .business-container{
   width: 90%;
+}
+.img-container, .img-grid{
+  width: 95%;
 }
   
 }
